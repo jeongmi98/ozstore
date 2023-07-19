@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul ,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 14PX;
+    line-height: 24px;
+    font-family: 'Cafe24SsurroundAir';
+    color: #000;
+}
+
+#top {
+    background-color:  #fff;
+}
+
+.top_nav img {
+    display: block;
+    padding: 10px;
+}
+
+.top_nav {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    display: block;
+    margin: 5px 100px 5px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: orange;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+
+#milk_banner{
+    margin: auto;
+    width: 1200px;
+}
+#milk{
+    margin: auto;
+    width: 1200px;
+}
+
+#footerbox{
+    width: 1200px;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 50px;
+    
+}
+.terms{
+    display: flex;
+}
+.terms li a{
+    padding: 20px;
+    
+}
+
+.insta{
+    
+    display: flex;
+}
+.insta li a{
+padding: 20px;
+}

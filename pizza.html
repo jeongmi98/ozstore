@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피자</title>
+    <link rel="stylesheet" href="./css/pizza.css">
+</head>
+
+<body>
+    <div id="top">
+        <div class="top_nav">
+            <a href="./index.html"><img src="./images/logo.png" alt="오지로고"></a>
+            <ul class="nav">
+                <li><a href="./index.html">OZ</a></li>
+                <li><a href="./index.html">MENU</a></li>
+                <li><a href="./index.html">STORE</a></li>
+                <li><a href="./index.html">CONTENTS</a></li>
+            </ul>
+        </div>
+    </div>
+    <video src="./media/banner6_00000.mp4" autoplay loop muted autoplay>
+
+    </video>
+    <div class="menu1">
+        <div class="menu_img">
+       <img src="./images/pizza1_1.png" alt="피자사진1">
+        <img src="./images/pizza1_2.png" alt="피자사진2" class="an">
+        <img src="./images/pizza1_3.png" alt="피자사진3" class="ana"></div>
+        
+        <table>
+            <caption>피자</caption>
+
+            <tr>
+                <td>가격</td>
+                <th>12,500원</th>
+            </tr>
+            <tr>
+                <td>피자 종류</td>
+                <th>
+                    <select>
+                        <option value="menu">메뉴 선택</option>
+                        <option value="menu1">콤비</option>
+                        <option value="menu2">연어</option>
+                        <option value="menu3">불고기</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <td>생일초추가</td>
+                <th>
+                    <select name="optionlist[]" onchange="change_option(this, 'basic');" label="생일초추가" opt_type="SINGLE"
+                        opt_id="1" opt_mix="N" require="N" opt_mandatory="N" class="basic_option">
+
+                        <option value="">옵션 선택</option>
+
+                        <option sto_id="0" price="0" matrix="" title="선택안함" value="0" style="color: #ff0000;">선택안함
+                        </option>
+                        <option value="1" title="HAPPY BIRTHDAY초" matrix="1" price="3000" sto_id="0" dis_sto_price=""
+                            dis_opt_price="" org_opt_price="0">HAPPY BIRTHDAY초(+3,000)</option>
+                </th>
+                </select>
+
+            </tr>
+            
+            <tr>
+                <td>판매 가격</td>
+                <th>12,500원</th>
+            </tr>
+            <tr>
+                <td>적립금</td>
+                <th>10%</th>
+            </tr>
+            <tr>
+                <td>할인가격</td>
+                <th>12,500원</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="pizza">
+        <img src="./images/pizza2.png" alt="피자">
+    </div>
+    <div id="footerbox">
+        <div class="footer">
+            <ul class="terms">
+                <li><a href="#">홈페이지 이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보처리기기운영방침</a></li>
+                <li><a href="#">위치기반서비스 이용약관</a></li>
+
+            </ul>
+            <ul class="insta">
+                <li><a href="#"><img src="#" alt="f"></a></li>
+                <li><a href="#"><img src="#" alt="인스타"></a></li>
+
+            </ul>
+           
+        </div>
+        <div>
+            <p>
+                ..<br>
+                ..<br>
+                ..
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

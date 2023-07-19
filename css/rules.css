@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul ,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 14PX;
+    line-height: 24px;
+    font-family: 'Cafe24SsurroundAir';
+    color: #000;
+}
+
+#top {
+    background-color: #ecd5d5;
+    border-bottom: #f0bad5 1px solid;
+}
+
+.top_nav img {
+    display: block;
+    padding: 10px;
+}
+
+.top_nav {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+}
+
+.nav li a {
+    display: block;
+    margin: 5px 50px 5px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.nav a:hover {
+    color: #f0bad5;
+}
+
+video{
+    width: 100%;
+}
+.rules{
+    width: 1200px;
+    margin: auto;
+}
+
+#footerbox{
+    width: 1200px;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 50px;
+    
+}
+.terms{
+    display: flex;
+}
+.terms li a{
+    padding: 20px;
+    
+}
+
+.insta{
+    
+    display: flex;
+}
+.insta li a{
+padding: 20px;
+}

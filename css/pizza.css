@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 14PX;
+    line-height: 24px;
+    font-family: 'Cafe24SsurroundAir';
+    color: #000;
+}
+
+#top {
+    background-color: #e9fbf2;
+}
+
+.top_nav img {
+    display: block;
+    padding: 10px;
+}
+
+.top_nav {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    display: block;
+    margin: 5px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: #b15e02;
+}
+
+.nav a:hover {
+    color: #000;
+}
+video{
+    width: 100%;
+    margin: auto;
+    
+}
+
+.menu1 {
+    margin: 50px auto;
+    width: 1200px;
+    border-top: 3px solid #050505;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.menu_img{
+    position: relative;
+}
+.an, .ana{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.an{
+    animation: menul 6s linear infinite; 
+}
+
+.ana{
+    animation: menu2 0s linear infinite; 
+}
+
+table {
+    border-top: #000 3px solid;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 500px;
+    border-spacing: 0;
+    border-collapse: collapse;   
+    vertical-align: middle;
+    font-family: inherit;
+    font-size: 100%;
+    color: #353535;
+    line-height: 30px;
+    width: 450px;
+    height: 26px;
+    font-size: 20px;
+
+}
+
+#pizza {
+    margin: auto;
+    width: 1200px;
+
+}
+
+select {
+    width: 100px;
+
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+
+
+#footerbox{
+    width: 1200px;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 50px;
+    
+}
+.terms{
+    display: flex;
+}
+.terms li a{
+    padding: 20px;
+    
+}
+
+.insta{
+    
+    display: flex;
+}
+.insta li a{
+padding: 20px;
+}
+
+@keyframes menul {
+ 0% { opacity: 0;}
+ 30% { opacity: 0;}
+ 33% { opacity: 1;}
+ 60% { opacity: 1;}
+ 63% { opacity: 0;}
+ 100% { opacity: 0;}
+}
+@keyframes menu2 {
+    0% { opacity: 0;}
+    30% { opacity: 0;}
+    33% { opacity: 0;}
+    60% { opacity: 0;}
+    63% { opacity: 1;}
+    100% { opacity: 1;}
+   }
+
+
+   @media (max-width:1199px) {
+    .top_nav,
+
+    #pizza{width: 100%;}
+   
+
+   
+   }
