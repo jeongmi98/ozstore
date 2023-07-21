@@ -76,14 +76,8 @@ video{
     display: flex;
 }
 .terms li a{
-    padding: 20px;
+    padding: 20px 70px; 
     
 }
 
-.insta{
-    
-    display: flex;
-}
-.insta li a{
-padding: 20px;
-}
+
