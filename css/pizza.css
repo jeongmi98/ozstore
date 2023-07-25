@@ -51,7 +51,7 @@ body {
 }
 
 .nav a:hover {
-    color: #000;
+    color: #f329e2;
 }
 video{
     width: 100%;
@@ -138,17 +138,11 @@ caption {
     display: flex;
 }
 .terms li a{
-    padding: 20px;
+     padding: 20px 70px; 
     
 }
 
-.insta{
-    
-    display: flex;
-}
-.insta li a{
-    padding: 20px 70px; 
-}
+
 
 @keyframes menul {
  0% { opacity: 0;}
